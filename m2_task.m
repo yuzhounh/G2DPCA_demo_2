@@ -9,5 +9,5 @@ n=(nRho+nS*nP)*4;
 fprintf('The number of tasks: %d. \n\n',n);
 para_worker(nPar);
 parfor i=1:n
-    partask(i);
+    para_task(i);
 end
